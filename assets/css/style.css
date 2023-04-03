@@ -636,6 +636,7 @@ a {
 
 .footer .social {
     display: flex;
+    gap: 0 16px;
     margin-top: 40px;
 }
 
