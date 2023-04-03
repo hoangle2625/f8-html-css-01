@@ -166,15 +166,27 @@ a {
 }
 
 .client .images-clients {
-    margin-top: 97px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.client .images-clients a {
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.client .images-clients a:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* ====== guides ====== */
 .guides {
-    margin-top: 121px;
+    margin-top: 30px;
     padding: 93px 0 79px;
 }
 
